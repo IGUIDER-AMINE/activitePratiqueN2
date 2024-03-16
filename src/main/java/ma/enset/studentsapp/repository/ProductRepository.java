@@ -8,6 +8,10 @@ import org.springframework.data.repository.query.Param;
 import java.util.List;
 
 public interface ProductRepository extends JpaRepository<Product,Long> { // Spring Data
+    //JpaRepository => spring data utiliser JPA forcément pour faire le mapping objet relationnel
+    //CrudRepository => CRUD
+    //MongoDBRepository
+    // l'aventage de spring data => vous pouvez utiliser n'importe quel base de données relationnelles ou pas
     List<Product> findByNameContains(String mc);// respect la typologie des noms
     List<Product> findByPriceGreaterThan(double price);
 
