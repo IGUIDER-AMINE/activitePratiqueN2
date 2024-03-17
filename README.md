@@ -1,0 +1,26 @@
+<h1>Créer l'entité JPA Patient ayant les attributs :</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
