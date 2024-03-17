@@ -7,7 +7,7 @@ import ma.enset.studentsapp.entities.RendezVous;
 
 public interface IHospitalService {
     Patient savePatient(Patient patient);
-    Patient saveMedecin(Medecin medecin);
-    Patient saveRDV(RendezVous rendezVous);
+    Medecin saveMedecin(Medecin medecin);
+    RendezVous saveRDV(RendezVous rendezVous);
     Consultation saveConsultation(Consultation consultation);
 }
