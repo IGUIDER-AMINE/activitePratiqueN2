@@ -1,4 +1,4 @@
-package ma.enset.studentsapp;
+/*package ma.enset.studentsapp;
 
 import ma.enset.studentsapp.entities.Product;
 import ma.enset.studentsapp.repository.ProductRepository;
@@ -49,3 +49,4 @@ public class StudentsAppApplication implements CommandLineRunner {
         productList4.forEach(p-> System.out.println(p));
     }
 }
+*/
